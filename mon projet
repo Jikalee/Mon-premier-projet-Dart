@@ -1,0 +1,16 @@
+void main() {
+  
+   int nombreStatique = 75;
+
+ 
+  int nombreAComparer = 70;
+
+ 
+  if (nombreAComparer > nombreStatique) {
+    print("$nombreAComparer est plus grand que $nombreStatique");
+  } else if (nombreAComparer < nombreStatique) {
+    print("$nombreAComparer est plus petit que $nombreStatique");
+  } else {
+    print("$nombreAComparer est égal à $nombreStatique");
+  }
+}
